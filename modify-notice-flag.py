@@ -2,8 +2,8 @@
 
 import os
 
-input_folder = "/THREAT-INTELLIGENCE/Zeek-Intelligence-Feeds"
-output_folder = "/THREAT-INTELLIGENCE/Zeek-Intelligence-Feeds-Modified"
+input_folder = "/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds"
+output_folder = "/usr/local/zeek/share/zeek/site/Zeek-Intelligence-Feeds-Modified"
 
 # Create the output folder if it doesn't exist
 if not os.path.exists(output_folder):
