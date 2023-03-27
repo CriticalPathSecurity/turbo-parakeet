@@ -11,14 +11,12 @@ Make sure you have Python 3.x installed.
 Update the input_folder and output_folder variables in the script to match your desired input and output directories:
 
 <pre>
-```bash
 input_folder = "/path/to/your/input/folder"
 output_folder = "/path/to/your/output/folder"
 </pre>
 
 **Run the script:
 <pre>
-```bash
 python3 zeek_intel_meta_modifier.py
 </pre>
 
