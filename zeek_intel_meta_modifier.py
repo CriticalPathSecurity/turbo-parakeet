@@ -21,7 +21,7 @@ for filename in os.listdir(input_folder):
                 else:
                     parts = line.strip().split("\t")
                     if len(parts) > 4:
-                        parts[4] = "T"
+                        parts[3] = "T"
                     modified_line = "\t".join(parts) + "\n"
                     outfile.write(modified_line)
 
